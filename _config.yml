@@ -13,17 +13,14 @@ repository               : "luehi1488/LJT-Homepage"
 
 # Site Author
 author:
-  # Biographic information
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "First-year PhD candidate at HKUST NLP Group, advised by Prof. Junxian He. Research interests: Natural Language Processing, Machine Learning, LLM Reasoning &amp; Reinforcement Learning, VLM Hallucination, LLM Truthfulness &amp; Interpretability."
+  bio              : "First-year PhD candidate at HKUST NLP Group, advised by Prof. Junxian He. Research interests: Natural Language Processing, Machine Learning, LLM Reasoning and Reinforcement Learning, VLM Hallucination, LLM Truthfulness and Interpretability."
   location         : "Hong Kong"
   employer         : "Hong Kong University of Science and Technology"
   uri              :
   email            : "jliugi@connect.ust.hk"
-
-  # Academic websites
   academia         :
   arxiv            :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
@@ -36,16 +33,12 @@ author:
   researchgate     :
   scopus           :
   zotero           :
-
-  # Repositories and software development
   bitbucket        :
   codepen          :
   dribbble         :
   github           : "Vicent0205"
   kaggle           :
   stackoverflow    :
-
-  # Social media
   artstation       :
   bluesky          :
   facebook         :
@@ -72,16 +65,14 @@ author:
   youtube          :
   zhihu            :
 
-# Publication Category
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
-# Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -118,15 +109,11 @@ atom_feed:
   hide                   : false
   path                   :
 
-
-# SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
-# Social Sharing
 twitter:
   username               : &amp;twitter "junteng88716710"
 facebook:
@@ -140,15 +127,11 @@ social:
   name                   :
   links:
 
-
-# Analytics
 analytics:
-  provider               :  "false"
+  provider               : "false"
   google:
     tracking_id          :
 
-
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -186,16 +169,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -206,8 +185,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Collections
 collections:
   teaching:
     output: true
@@ -222,10 +199,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -236,14 +210,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -252,7 +224,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -261,7 +232,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -270,7 +240,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
   - scope:
       path: ""
       type: talks
@@ -279,19 +248,13 @@ defaults:
       author_profile: true
       share: true
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-
-# Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -308,8 +271,6 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
-# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -317,8 +278,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
-# HTML Compression
 compress_html:
   clippings: all
   ignore:
